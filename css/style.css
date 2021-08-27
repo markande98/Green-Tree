@@ -144,6 +144,10 @@ button{
     opacity: 1;
 }
 
+.button_1 a{
+    text-decoration: none;
+}
+
 header {
     border-bottom: #000000 1px solid;
 }
