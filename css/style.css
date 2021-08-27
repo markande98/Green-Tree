@@ -2,101 +2,639 @@ body {
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
-.container {
-    width: 90%;
+.container{
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
 
 .container2{
     width: 100%;
-    margin: auto;
+    max-width: 509px;
+    height: 785px;
     overflow: hidden;
-    background: url('../home/annie-spratt-135307-unsplash.png');
-    min-height: 670px;
-    background-size: 100%;
+    min-height: 300px;
+    background-image: url(../home/annie-spratt-135307-unsplash/annie-spratt-135307-unsplash.png);
+    background-size: contain;
+    background-repeat:no-repeat;
 }
 
-ul {
-	margin-left: 20px;
-    padding: 0;
+.container3{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    min-height: 400px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container4 {
+    width: 100%;
+    height: auto;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top:0;
+    color: #ffffff;
+    display: grid;
+    grid-template: repeat(3, 1fr);  
+}
+
+.container5 {
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    background-image: url(../home/climate_change.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+}
+
+.container6 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1 fr);
+    margin-bottom:150px;
+}
+
+.container7{
+    width:100%;
+    height: auto;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+}
+
+.container8{
+    width: 100%;
+    height: auto;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+}
+
+.container9{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+}
+
+.container .greentree{
+    float: left;
+    width: 50%;
+    text-align: left;
+    font: normal normal bold 10px/15px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.greentree h1 .g1{
+    padding:0;
+    margin-left:20px;
+}
+nav {
+    float: right;
+    width: 40%;
+}
+
+nav li{
+    float: left;
+	display: block;
+	padding: 10px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+nav a{
+    color: #000000;
+	text-decoration: none;
+}
+
+button{
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    padding: 10px;
+    border: 0px;
 }
 
 .button_1{
-    margin-left: 180px;
-    margin-top: 0px;
-    color: #354463;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
     text-align: center;
-    background: #C1F7D5 0% 0% no-repeat padding-box;;
     font: normal normal bold 18px/22px Helvetica;
     letter-spacing: 0px;
+    color: #354463;
     opacity: 1;
-    border-radius: 100px;
-    border: none;
-    padding: 15px 32px;
 }
 
 header {
-    color: #000000;
-    min-height: 70px;
-    margin-top: 20px;
-    border-bottom: black 1px solid;
+    border-bottom: #000000 1px solid;
 }
 
-header #branding {
-    float: left;
-    margin-top: 0px;
+#showcase .slogan {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 20%;
+    margin-bottom: 150px;
+    text-align: left;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-header a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 15px;
+.slogan h1 {
+    font-style:italic;
+    padding: 10px;
 }
 
-header li {
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-    margin-left: 130px;
+#showcase .issue{
+    width: 100px;
+    height: 30px;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #ffffff;
+    text-align:center;
+    position: absolute;
+    z-index: 2;
+    margin-top: -15px;
+    margin-left: 200px;
 }
 
-header nav {
-	float: left;
+#showcase .action{
+    width: 100px;
+    height: 30px;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #ffffff;
+    text-align:center;
+    position: absolute;
+    z-index: 2;
+    margin-top: 125px;
+    margin-left: 200px;
 }
 
-header h3 {
-    margin: 0 0 0 20px;
-    padding-top: 0;
-}
-
-#showcase {
-    width: 100%;
-}
-
-.dialogue-box {
-    margin-left: 150px;
-    margin-top: 150px;
-    width: 500px;
-    height: 400px;
+#showcase .message {
+    width: 400px;
+    height: 280px;
+    margin: auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
-    position: fixed;
+    text-align:center;
 }
-
-#showcase .dialogue-box .message {
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: left;
-    font: normal normal bold 44px/56px Helvetica;
+#showcase .message h1{
+    font: normal normal bold 22px/28px Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
+    padding: 40px;
+}
+
+#showcase .message p {
+    text-align: center;
+}
+
+.container3 .learn {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    text-align: center;
+    margin: 30px;
+    width: 150px;
+}
+
+.container3 .volunteer {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+    margin: 30px;
+    width: 150px
+}
+
+.container3 .Share {
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+    margin: 30px;
+    width: 150px
+}
+
+.container3 .Donate{
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    margin: 30px;
+    width: 150px
+}
+.container3 p, .container3 h{
+    margin: 0px;
+    padding: 0px;
+}
+.container3 .learn p, .container3 .learn h1{
+ text-align: left;
+}
+.container3 .volunteer p, .container3 .volunteer h1{
+    text-align: left;
+}
+.container3 .Share p, .container3 .Share h1{
+text-align: left;
+}
+.container3 .Donate p, .container3 .Donate h1{
+    text-align: left;
+}
+
+.container4 .do{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left:160px;
+    margin-right:180px;
+    margin-top:40px;
+    height: 40px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.container4 .do_p{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container4 .do_message {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.container4 .box .box1{
+    background-color: #ffffff;
+    height: 500px;
+    width: 330px;
+    margin-left: 90px;
+    margin-right: 50px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container4 .box .box1 h1{
+    padding-top: 250px;
+}
+
+.container4 .box .box1 p{
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin: 0 30px;
+}
+
+.button_2{
+    margin-top: 30px;
+}
+
+.image1 {
+    position: absolute;
+    z-index: 2;
+    height: 200px;
+    width: 250px;
+    margin-left: -120px;
+    margin-top: -20px;
+}
+
+.container5 .slogan {
+    text-align: left;
+    font: normal normal normal 44px/25px Flood Std;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-right:90px;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 20px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.button_3 {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    height: 40px;
+    width: 130px;
+    margin-left: 7px;
+    font: normal normal bold 18px/22px Helvetica;
+    font-size: 12px;
+}
+
+.did_know {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 20px
+}
+
+.did1 {
+    display: flex;
+    height: 90px;
+    width: 220px;
+    background-color: #ffffff;
+    margin: 10px 0px;
+}
+
+.did1 h1{
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 2px
+}
+
+.did1 p {
+    font-size: 10px;
+    margin-left: 15px;
+    text-align: left;
+    margin-right: 15px;
+    padding: 2px;
+    margin-bottom:2px;
+}
+
+.l1{
+    float: left;
+}
+.l2{
+    float: right;
+}
+
+.l2 img{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 18px;
+}
+
+.l {
+    height: 20px;
+    width: 130px;
+    background-color: #000000;
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.lady {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px
+}
+
+.msg {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.msg h1 {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.msg p {
+    text-align: center;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 60px
+}
+
+.sty {
+    width: 100px;
+    height: 30px;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #ffffff;
+    text-align:center;
+    position: absolute;
+    z-index: 2;
+    margin-top: 85px;
+    margin-left: 200px;
+}
+
+#stories button{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px
 }
 
 
+.msg2 h1{
+    text-align: center;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-style: italic;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+.container7 img {
+    margin-left: 100px;
+    margin-top:100px
+}
 
+.container7 .do_p {
+    position: absolute;
+    z-index: 2;
+    color: #000000;
+    background-color: #ffffff;
+    width: 60px;
+    margin-top:305px;
+    margin-left: 200px;
+    padding: 0 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.container7 h2{
+    text-align: center;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.container7 button {
+    margin-left: 200px;
+    margin-right: 170px;
+    margin-bottom: 50px;
+    width: 100px
+}
+
+.container7 p{
+    color: #ffffff;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+}
+
+.container7 .do_p2 {
+    position: absolute;
+    z-index: 2;
+    color: #000000;
+    background-color: #ffffff;
+    width: 120px;
+    margin-top:80px;
+    margin-left: 170px;
+    padding: 0 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.container8 .msg{
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 150px;
+}
+
+.container8 h1{
+    color: #354463;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    width: 350px;
+}
+
+.container8 button{
+    background-color: #354463;
+    width: 100px;
+}
+
+.container8 input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.container8 .button_4{
+    text-align: center;
+    font: normal normal bold 16px/19px Helvetica;
+    letter-spacing: 0px;
+    color: #C1F7D5;
+    opacity: 1;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.container9 .b1{
+    grid-row: 1;
+    grid-column: 1;
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin: 70px 70px
+}
+
+.container9 .b2{
+    grid-row: 1;
+    grid-column: 2;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin: 50px 100px
+}
+
+.container9 .b3{
+    grid-row: 2;
+    grid-column: 1;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin: 50px 70px;
+}
+
+.container9 .b4{
+    grid-row: 2;
+    grid-column: 2;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin: 50px 100px;
+}
+
+.container9 .b5{
+    grid-row: 3;
+    grid-column: 2;
+    text-align: right;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin: 50px 80px;
+}
+
+.container9 h5{
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+    text-decoration: none;
+}
