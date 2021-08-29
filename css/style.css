@@ -2715,7 +2715,7 @@ body {
         width: 100%;
         height: 50%;
         font-size: 80%;
-        margin: -20% 40%;
+        margin: -20% 48%;
     }
 
     .container2{
@@ -2794,12 +2794,12 @@ body {
     .action_tag{
         width: 30%;
         position: absolute;
-        margin-left: 40%;
+        margin: 0 34%;
         text-align: center;
         background-color: #354463;
         color: #ffffff;
         padding: 1%;
-        margin-top: -2.5%;
+        margin-top: -3.5%;
     }
     .container3{
         background: #C1F7D5 0% 0% no-repeat padding-box;
@@ -2849,7 +2849,7 @@ body {
         opacity: 1;
         overflow: hidden;
         padding: 2% 10% 5% 10%;
-        height: 1500px;
+        height: 1600px;
     }
     .do{
         background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -2961,9 +2961,9 @@ body {
         border-radius: 100px;
         opacity: 1;
         border: none;
-        width: 50%;
+        width: 60%;
         padding: 4%;
-        margin-left: 25%;  
+        margin: 4% 20%;  
     }
     .box2 p{
         color: #354463;
@@ -3006,7 +3006,7 @@ body {
         margin: 2% 40% 0 10%;
     }
     .did_know{
-        margin: 5% 0;
+        margin: 5%;
         height: 80%;
         grid-row: 2;
         width: 100%;
@@ -3079,11 +3079,10 @@ body {
 
     .sty{
         width: 25%;
-        left: 40%;
+        margin: 0 30%;
         position: absolute;
         height: 4%;
         margin-top: -4%;
-        padding: 1% 0 0 0;
         text-align: center;
         background-color: #354463;
         color: #ffffff;
@@ -3122,9 +3121,7 @@ body {
         opacity: 1;
         border: none;
         width: 45%;
-        padding: 1%;
-        margin-top: 20%;
-        margin-left: 25%;
+        margin: 10% 28%;
         font-size: 120%;
     }
 
@@ -3191,7 +3188,7 @@ body {
         height: 30px;
         color: #354463;
         opacity: 1;
-        margin-left: 20%;
+        margin-left: 18%;
         text-align: center;
         padding:2%;
         margin-top: -75%;
@@ -3241,14 +3238,19 @@ body {
         border-radius: 100px;
         opacity: 1;
         border: none;
-        width: 80%;
-        height: 30%;
-        font-size: 80%;
-        margin-left: 60%;
+        width: 100%;
+        height: 50%;
+        font-size: 120%;
+        padding: 8%;
+        margin: 10% 50%;
     }
 
     .news .button_4{
-        margin-top: 10%;
+        width: 100%;
+        height: 50%;
+        font-size: 120%;
+        padding: 8%;
+        margin: 10%;
     }
 
     .news .f2 div, .news p, .news button{
@@ -3260,14 +3262,14 @@ body {
         overflow: hidden;
         display: grid;
         grid-template-rows: 1fr 1fr;
-        padding: 5%;
+        padding: 5% 0 5% 5%;
     }
     .msg3{
         grid-row: 1;
         padding:0;
         font-size: 60%;
         width: 80%;
-        margin-left: 5%;
+        margin-left: 0;
     }
     .msg3 .h1{
         margin: 0 10%;
@@ -3278,24 +3280,19 @@ body {
         display: flex;
         margin-top: 2%;
     }
-    .subscribe input {
-        float: left;
-        background-color: #ffffff;
-        border: none;
+    .subscribe input{
         width: 60%;
-        height: 55%;
+        border: none;
+        border-radius: 50px;
         text-align: center;
-        margin-left: 3%;
-        border-radius: 100px;
-        font-size: 100%;
     }
-    .subscribe button{
-        float: right;
+    .subscribe .button_5{
         width: 30%;
-        margin-left: 10%;
+        margin: 0 10%;
         background-color: #354463;
-        color: #ffffff;
-        height: 55%;
+        color: #FFFFFF;
+        border-radius: 50px;
+        height: 100%;
     }
     .container9{
         padding: 5%;
