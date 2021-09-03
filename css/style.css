@@ -37,7 +37,7 @@ a{
         border-bottom: #000000 1px solid;
     }
 
-    .green-tree-header{
+    .green_tree_header{
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -83,7 +83,7 @@ a{
         margin-left: 5%;
     }
 
-    .climate-change-issue-msg{
+    .climate_change_issue_msg{
         width: 100%;
         height: 700px;
         overflow: hidden;
@@ -173,7 +173,7 @@ a{
         z-index: 2;
         margin-top: -1.5%;
     }
-    .action-initiative{
+    .action_initiative{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -203,14 +203,14 @@ a{
         margin: 15% 0%;
         margin-right: 35%;
     }
-    .action-initiative p {
+    .action_initiative p {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
         color: #354463;
         opacity: 1;
     }
-    .our-initiative {
+    .our_initiative {
         background: #354463 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -244,14 +244,14 @@ a{
     .box h1{
         margin: 80% 0 0 30%;
     }
-    .box-plant{
+    .box_plant{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 1;
         margin: 0 5% 0 0;
         width: 80%;
     }
-    .box-plant .image1{
+    .box_plant .image1{
         height: 224px;
         width: 320px;
         position: absolute;
@@ -259,7 +259,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education .image1{
+    .box_education .image1{
         position: absolute;
         z-index: 2;
         position: absolute;
@@ -267,7 +267,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-advocacy .image1{
+    .box_advocacy .image1{
         position: absolute;
         z-index: 2;
         position: absolute;
@@ -275,46 +275,46 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education{
+    .box_education{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 2;
         margin: 0 5% 0 5%;
         width: 80%;
     }
-    .box-advocacy{
+    .box_advocacy{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 3;
         margin: 0 5% 0 10%;
         width: 80%;
     }
-    .box-plant h1{
+    .box_plant h1{
         color: #354463;
         padding: 0;
         margin-left: 9%;
         margin-right: 20%;
     }
-    .box-education h1{
+    .box_education h1{
         color: #354463;
         padding: 0;
         margin-left: 9%;
         margin-right: 20%;
     }
-    .box-advocacy h1{
+    .box_advocacy h1{
         color: #354463;
         padding: 0;
         margin-left: 9%;
         margin-right: 20%;
     }
-    .box-plant p{
+    .box_plant p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
         font-size: 100%;
         padding: 0 10%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -323,14 +323,14 @@ a{
         padding: 4%;
         margin: 0 0 5% 9%;       
     }
-    .box-education p{
+    .box_education p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
         font-size: 100%;
         padding: 0 10%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -339,14 +339,14 @@ a{
         padding: 4%;
         margin: 0 0 5% 9%;       
     }
-    .box-advocacy p{
+    .box_advocacy p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
         font-size: 100%;
         padding: 0 10%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -356,7 +356,7 @@ a{
         margin: 5% 0 8% 9%;       
     }
 
-    .climate-issue-action-social{
+    .climate_issue_action_social{
         width: 100%;
         background-image: url(../home/climate_change.png);
         height: 1279px;
@@ -365,7 +365,7 @@ a{
         background-repeat:no-repeat;
         display: flex;
     }
-    .climate-issue-action-social .slogan{
+    .climate_issue_action_social .slogan{
         float: left;
         padding: 0;
         width: 40%;
@@ -392,34 +392,34 @@ a{
         font-size: 50%;
         margin-top: 10%;
     }
-    .social-media{
+    .social_media{
         height: 20%;
         width: 80%;
         background-color: #ffffff;
         display: flex;
         margin: 5%
     }
-    .social-media-msg{
+    .social_media_msg{
         float: left;
         padding: 10%;
         width: 70%;
         color: #354463;
         margin: 0 5%;
     }
-    .social-media-msg h1{
+    .social_media_msg h1{
         font-size: 200%;
         padding: 0;
         margin: 0;
     }
-    .social-media-msg p{
+    .social_media_msg p{
         padding: 0;
     }
-    .social-media-icon{
+    .social_media_icon{
         float: right;
         width: 30%;
         margin: auto;
     }
-    .social-media-icon div{
+    .social_media_icon div{
         margin:30% 0;
         background-color: #C1F7D5;
         width: 16px;
@@ -441,7 +441,7 @@ a{
         font-size: 85%;
     }
 
-    .ladies-stories{
+    .ladies_stories{
         padding: 10%;
     }
 
@@ -481,7 +481,7 @@ a{
         margin-bottom: 10%;
         letter-spacing: 1px;
     }
-    .ladies-stories .read-more-button{
+    .ladies_stories .read_more_button{
         position: absolute;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -494,14 +494,14 @@ a{
         font-size: 120%;
     }
 
-    .oath-event-news{
+    .oath_event_news{
         background-color: #354463;
         display: grid;
         grid-template-rows: 0.8fr 2fr 2fr;
         padding:10%;
         overflow: hidden;
     }
-    .oath-event-news img{
+    .oath_event_news img{
         width: 576px;
         height: 576px;
     }
@@ -522,27 +522,27 @@ a{
         grid-template: repeat(1, 1fr) / repeat(2, 1fr);
         margin: 4% 0;
     }
-    .event .tree-images{
+    .event .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 1;
     }
-    .event .news-events-msg{
+    .event .news_events_msg{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .tree-images{
+    .news .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .news-events-msg{
+    .news .news_events_msg{
         grid-row: 1;
         grid-column: 1;
         width: 50%;
     }
-    .news-events-msg .do_p{
+    .news_events_msg .do_p{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         width: 40%;
         height: 20px;
@@ -562,7 +562,7 @@ a{
         font-weight:bold;
         width: 100%;
     }
-    .news-events-msg p{
+    .news_events_msg p{
         color: #ffffff;
         margin-left: 35%;
         margin-top: 12%;
@@ -574,7 +574,7 @@ a{
         width: 100%;
         font-weight:lighter;
     }
-    .news-events-button{
+    .news_events_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -586,7 +586,7 @@ a{
         margin-top: 5%;
     }
 
-    .news .news-events-msg div, .news p, .news button{
+    .news .news_events_msg div, .news p, .news button{
         margin-left: 0;
     }
 
@@ -623,13 +623,13 @@ a{
         height: 15%;
         border-radius: 100px;
     }
-    .bottom-tag-line{
+    .bottom_tag_line{
         padding: 5%;
         overflow: hidden;
         display: grid;
         grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
     }
-    .bottom-tag-msg_title{
+    .bottom_tag_msg_title{
         grid-column: 1;
         padding: 5%;
         color: #354463;
@@ -637,22 +637,22 @@ a{
         width: 50%;
         margin: 5% 20%;
     }
-    .bottom-tag-msg_contact{
+    .bottom_tag_msg_contact{
         grid-column: 2;
         margin: 0 20%;
     }
-    .bottom-tag-msg_follow{
+    .bottom_tag_msg_follow{
         grid-column: 3;
         margin: 0 25%;
     }
-    .bottom-tag-msg_learn{
+    .bottom_tag_msg_learn{
         grid-column: 4;
         margin: 0 25%;
     }
-    .bottom-tag-line h5{
+    .bottom_tag_line h5{
         color:#354463;
     }
-    .bottom-tag-msg_slogan{
+    .bottom_tag_msg_slogan{
         grid-column: 5;
         padding: 5%;
         font-family: flood-std;
@@ -677,7 +677,7 @@ a{
         border-bottom: #000000 1px solid;
     }
 
-    .green-tree-header{
+    .green_tree_header{
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -730,7 +730,7 @@ a{
         margin-left: 10%;
     }
 
-    .climate-change-issue-msg{
+    .climate_change_issue_msg{
         width: 100%;
         height: 700px;
         overflow: hidden;
@@ -821,7 +821,7 @@ a{
         z-index: 2;
         margin-top: -1.5%;
     }
-    .action-initiative{
+    .action_initiative{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -851,14 +851,14 @@ a{
         margin: 15% 0%;
         margin-right: 35%;
     }
-    .action-initiative p {
+    .action_initiative p {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
         color: #354463;
         opacity: 1;
     }
-    .our-initiative {
+    .our_initiative {
         background: #354463 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -892,14 +892,14 @@ a{
     .box h1{
         margin: 80% 0 0 30%;
     }
-    .box-plant{
+    .box_plant{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 1;
         margin: 0 5% 0 0;
         width: 80%;
     }
-    .box-plant .image1{
+    .box_plant .image1{
         height: 200px;
         width: 250px;
         position: absolute;
@@ -907,7 +907,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education .image1{
+    .box_education .image1{
         height: 200px;
         width: 250px;
         position: absolute;
@@ -915,7 +915,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-advocacy .image1{
+    .box_advocacy .image1{
         height: 200px;
         width: 250px;
         position: absolute;
@@ -923,46 +923,46 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education{
+    .box_education{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 2;
         margin: 0 5% 0 5%;
         width: 80%;
     }
-    .box-advocacy{
+    .box_advocacy{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 3;
         margin: 0 5% 0 10%;
         width: 80%;
     }
-    .box-plant h1{
+    .box_plant h1{
         color: #354463;
         padding: 0;
         margin-left: 9%;
         margin-right: 20%;
     }
-    .box-education h1{
+    .box_education h1{
         color: #354463;
         padding: 0;
         margin-left: 9%;
         margin-right: 20%;
     }
-    .box-advocacy h1{
+    .box_advocacy h1{
         color: #354463;
         padding: 0;
         margin-left: 9%;
         margin-right: 20%;
     }
-    .box-plant p{
+    .box_plant p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
         font-size: 100%;
         padding: 0 10%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -971,14 +971,14 @@ a{
         padding: 4%;
         margin: 0 0 5% 9%;       
     }
-    .box-education p{
+    .box_education p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
         font-size: 100%;
         padding: 0 10%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -987,14 +987,14 @@ a{
         padding: 4%;
         margin: 0 0 5% 9%;       
     }
-    .box-advocacy p{
+    .box_advocacy p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
         font-size: 100%;
         padding: 0 10%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -1004,7 +1004,7 @@ a{
         margin: 5% 0 8% 9%;       
     }
 
-    .climate-issue-action-social{
+    .climate_issue_action_social{
         width: 100%;
         background-image: url(../home/climate_change.png);
         height: 1279px;
@@ -1013,7 +1013,7 @@ a{
         background-repeat:no-repeat;
         display: flex;
     }
-    .climate-issue-action-social .slogan{
+    .climate_issue_action_social .slogan{
         float: left;
         padding: 0;
         width: 40%;
@@ -1040,34 +1040,34 @@ a{
         font-size: 50%;
         margin-top: 10%;
     }
-    .social-media{
+    .social_media{
         height: 20%;
         width: 80%;
         background-color: #ffffff;
         display: flex;
         margin: 5%
     }
-    .social-media-msg{
+    .social_media_msg{
         float: left;
         padding: 10%;
         width: 70%;
         color: #354463;
         margin: 0 5%;
     }
-    .social-media-msg h1{
+    .social_media_msg h1{
         font-size: 200%;
         padding: 0;
         margin: 0;
     }
-    .social-media-msg p{
+    .social_media_msg p{
         padding: 0;
     }
-    .social-media-icon{
+    .social_media_icon{
         float: right;
         width: 30%;
         margin: 5% 0;
     }
-    .social-media-icon div{
+    .social_media_icon div{
         margin:30% 0;
         background-color: #C1F7D5;
         width: 16px;
@@ -1089,7 +1089,7 @@ a{
         font-size: 85%;
     }
 
-    .ladies-stories{
+    .ladies_stories{
         padding: 10%;
     }
 
@@ -1129,7 +1129,7 @@ a{
         margin-bottom: 10%;
         letter-spacing: 1px;
     }
-    .ladies-stories .read-more-button{
+    .ladies_stories .read_more_button{
         position: absolute;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -1142,14 +1142,14 @@ a{
         font-size: 120%;
     }
 
-    .oath-event-news{
+    .oath_event_news{
         background-color: #354463;
         display: grid;
         grid-template-rows: 0.4fr 1.5fr 1.5fr;
         padding:10%;
         overflow: hidden;
     }
-    .oath-event-news img{
+    .oath_event_news img{
         width: 576px;
         height: 576px;
     }
@@ -1170,30 +1170,30 @@ a{
         grid-template: repeat(1, 1fr) / 1fr 0.5fr;
         margin: 5% 0;
     }
-    .news .news-events-button{
+    .news .news_events_button{
         margin-top: 70%;
     }
-    .event .tree-images{
+    .event .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 1;
     }
-    .event .news-events-msg{
+    .event .news_events_msg{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .tree-images{
+    .news .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .news-events-msg{
+    .news .news_events_msg{
         grid-row: 1;
         grid-column: 1;
         width: 50%;
     }
-    .news-events-msg .do_p{
+    .news_events_msg .do_p{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         width: 50%;
         height: 20px;
@@ -1212,7 +1212,7 @@ a{
         font-weight:bold;
         width: 100%;
     }
-    .news-events-msg p{
+    .news_events_msg p{
         color: #ffffff;
         margin-left: 35%;
         margin-top: 12%;
@@ -1224,7 +1224,7 @@ a{
         width: 100%;
         font-weight:lighter;
     }
-    .news-events-button{
+    .news_events_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -1236,7 +1236,7 @@ a{
         margin-top: 35%;
     }
 
-    .news .news-events-msg div, .news p, .news button{
+    .news .news_events_msg div, .news p, .news button{
         margin-left: 0;
     }
 
@@ -1272,13 +1272,13 @@ a{
         color: #ffffff;
         height: 15%;
     }
-    .bottom-tag-line{
+    .bottom_tag_line{
         padding: 5%;
         overflow: hidden;
         display: grid;
         grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
     }
-    .bottom-tag-msg_title{
+    .bottom_tag_msg_title{
         grid-column: 1;
         padding: 5%;
         color: #354463;
@@ -1286,22 +1286,22 @@ a{
         width: 50%;
         margin: 5% 20%;
     }
-    .bottom-tag-msg_contact{
+    .bottom_tag_msg_contact{
         grid-column: 2;
         margin: 0 20%;
     }
-    .bottom-tag-msg_follow{
+    .bottom_tag_msg_follow{
         grid-column: 3;
         margin: 0 25%;
     }
-    .bottom-tag-msg_learn{
+    .bottom_tag_msg_learn{
         grid-column: 4;
         margin: 0 25%;
     }
-    .bottom-tag-line h5{
+    .bottom_tag_line h5{
         color:#354463;
     }
-    .bottom-tag-msg_slogan{
+    .bottom_tag_msg_slogan{
         grid-column: 5;
         padding: 5%;
         font-family: flood-std;
@@ -1325,7 +1325,7 @@ a{
         border-bottom: #000000 1px solid;
     }
 
-    .green-tree-header{
+    .green_tree_header{
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -1387,7 +1387,7 @@ a{
         margin-left: 10%;
     }
 
-    .climate-change-issue-msg{
+    .climate_change_issue_msg{
         width: 100%;
         height: 700px;
         overflow: hidden;
@@ -1472,7 +1472,7 @@ a{
         padding: 1%;
         margin-top: -2.5%;
     }
-    .action-initiative{
+    .action_initiative{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -1500,14 +1500,14 @@ a{
         grid-column: 2;
         padding: 10%;
     }
-    .action-initiative p {
+    .action_initiative p {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
         color: #354463;
         opacity: 1;
     }
-    .our-initiative {
+    .our_initiative {
         background: #354463 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -1541,13 +1541,13 @@ a{
     .box h1{
         margin: 80% 0 0 30%;
     }
-    .box-plant{
+    .box_plant{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 1;
         height: 90%;
     }
-    .box-plant .image1{
+    .box_plant .image1{
         height: 200px;
         width: 250px;
         position: absolute;
@@ -1555,7 +1555,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education .image1{
+    .box_education .image1{
         height: 200px;
         width: 250px;
         position: absolute;
@@ -1563,7 +1563,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-advocacy .image1{
+    .box_advocacy .image1{
         height: 200px;
         width: 250px;
         position: absolute;
@@ -1571,42 +1571,42 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education{
+    .box_education{
         background-color: #ffffff;
         grid-row: 2;
         grid-column: 1;
         height: 90%;
         margin-top: 10%;
     }
-    .box-advocacy{
+    .box_advocacy{
         background-color: #ffffff;
         grid-row: 3;
         grid-column: 1;
         height: 90%;
         margin-top: 20%;
     }
-    .box-plant h1{
+    .box_plant h1{
         color: #354463;
         padding: 0;
         margin-top: 0;
         margin-left: 55%;
         margin-right: 10%;
     }
-    .box-education h1{
+    .box_education h1{
         color: #354463;
         padding: 0;
         margin-top: 0;
         margin-left: 55%;
         margin-right: 10%;
     }
-    .box-advocacy h1{
+    .box_advocacy h1{
         color: #354463;
         padding: 0;
         margin-top: 0;
         margin-left: 55%;
         margin-right: 10%;
     }
-    .box-plant p{
+    .box_plant p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
@@ -1615,7 +1615,7 @@ a{
         margin-right: 2%;
         font-size: 70%;
     }
-    .read-more-button{
+    .read_more_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -1624,7 +1624,7 @@ a{
         padding: 4%;
         margin-left: 55%;  
     }
-    .box-education p{
+    .box_education p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
@@ -1633,7 +1633,7 @@ a{
         margin-right: 2%;
         font-size: 70%;
     }
-    .box-advocacy p{
+    .box_advocacy p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
@@ -1643,7 +1643,7 @@ a{
         font-size: 70%;
     }
 
-    .climate-issue-action-social{
+    .climate_issue_action_social{
         width: 100%;
         background-image: url(../home/climate_change.png);
         height: 1150px;
@@ -1652,7 +1652,7 @@ a{
         background-repeat:no-repeat;
         display: flex;
     }
-    .climate-issue-action-social .slogan{
+    .climate_issue_action_social .slogan{
         float: left;
         padding: 0;
         width: 20%;
@@ -1678,34 +1678,34 @@ a{
         font-size: 70%;
         margin-top: 10%;
     }
-    .social-media{
+    .social_media{
         height: 20%;
         width: 100%;
         background-color: #ffffff;
         display: flex;
         margin: 10% 0;
     }
-    .social-media-msg{
+    .social_media_msg{
         float: left;
         padding: 8%;
         width: 70%;
         color: #354463;
         margin: 0 5%;
     }
-    .social-media-msg h1{
+    .social_media_msg h1{
         font-size: 180%;
         padding: 0;
         margin: 0;
     }
-    .social-media-msg p{
+    .social_media_msg p{
         padding: 0;
     }
-    .social-media-icon{
+    .social_media_icon{
         float: right;
         width: 30%;
         margin: 5% 0;
     }
-    .social-media-icon div{
+    .social_media_icon div{
         margin:30% 0;
         background-color: #C1F7D5;
         width: 16px;
@@ -1727,7 +1727,7 @@ a{
         font-size: 85%;
     }
 
-    .ladies-stories{
+    .ladies_stories{
         width: 100%;
         height: auto;
         overflow: hidden;
@@ -1766,7 +1766,7 @@ a{
         font-size: 80%;
         margin-left: 8%;
     }
-    .ladies-stories .read-more-button{
+    .ladies_stories .read_more_button{
         position: relative;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -1778,7 +1778,7 @@ a{
         font-size: 120%;
     }
 
-    .oath-event-news{
+    .oath_event_news{
         background-color: #354463;
         display: grid;
         grid-template-rows: 0.4fr 0.8fr 0.8fr;
@@ -1818,30 +1818,30 @@ a{
         grid-template: repeat(1, 1fr) / 1fr 1fr;
         margin: 5% 0;
     }
-    .news .news-events-button{
+    .news .news_events_button{
         margin-top: 70%;
     }
-    .event .tree-images{
+    .event .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 1;
     }
-    .event .news-events-msg{
+    .event .news_events_msg{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .tree-images{
+    .news .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .news-events-msg{
+    .news .news_events_msg{
         grid-row: 1;
         grid-column: 1;
         width: 50%;
     }
-    .news-events-msg .do_p{
+    .news_events_msg .do_p{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         width: 50%;
         height: 20px;
@@ -1860,7 +1860,7 @@ a{
         font-weight:bold;
         width: 100%;
     }
-    .news-events-msg p{
+    .news_events_msg p{
         color: #ffffff;
         margin-left: 35%;
         margin-top: 12%;
@@ -1871,7 +1871,7 @@ a{
         width: 100%;
         font-weight:lighter;
     }
-    .news-events-button{
+    .news_events_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -1883,7 +1883,7 @@ a{
         margin-top: 35%;
     }
 
-    .news .news-events-msg div, .news p, .news button{
+    .news .news_events_msg div, .news p, .news button{
         margin-left: 0;
     }
 
@@ -1923,13 +1923,13 @@ a{
         color: #ffffff;
         height: 100%;
     }
-    .bottom-tag-line{
+    .bottom_tag_line{
         padding: 5%;
         overflow: hidden;
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     }
-    .bottom-tag-msg_title{
+    .bottom_tag_msg_title{
         grid-row: 1;
         grid-column: 1;
         padding: 10%;
@@ -1937,25 +1937,25 @@ a{
         font-size: 150%;
         width: 80%;
     }
-    .bottom-tag-msg_contact{
+    .bottom_tag_msg_contact{
         grid-row: 1;
         grid-column: 2;
         margin: 0 20%;
     }
-    .bottom-tag-msg_follow{
+    .bottom_tag_msg_follow{
         grid-row: 1;
         grid-column: 3;
         margin: 0 25%;
     }
-    .bottom-tag-msg_learn{
+    .bottom_tag_msg_learn{
         grid-row: 2;
         grid-column: 2;
         margin: 0 25%;
     }
-    .bottom-tag-line h5{
+    .bottom_tag_line h5{
         color:#354463;
     }
-    .bottom-tag-msg_slogan{
+    .bottom_tag_msg_slogan{
         grid-row: 2;
         grid-column: 3;
         padding: 5%;
@@ -1979,7 +1979,7 @@ a{
         border-bottom: #000000 1px solid;
     }
 
-    .green-tree-header{
+    .green_tree_header{
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -2042,7 +2042,7 @@ a{
         margin-left: 10%;
     }
 
-    .climate-change-issue-msg{
+    .climate_change_issue_msg{
         width: 100%;
         height: 700px;
         overflow: hidden;
@@ -2127,7 +2127,7 @@ a{
         padding: 1%;
         margin-top: -2.5%;
     }
-    .action-initiative{
+    .action_initiative{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -2155,14 +2155,14 @@ a{
         grid-column: 2;
         padding: 10%;
     }
-    .action-initiative p {
+    .action_initiative p {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
         color: #354463;
         opacity: 1;
     }
-    .our-initiative {
+    .our_initiative {
         background: #354463 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -2196,13 +2196,13 @@ a{
     .box h1{
         margin: 80% 0 0 30%;
     }
-    .box-plant{
+    .box_plant{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 1;
         height: 80%;
     }
-    .box-plant .image1{
+    .box_plant .image1{
         height: 150px;
         width: 150px;
         position: absolute;
@@ -2210,7 +2210,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education .image1{
+    .box_education .image1{
         height: 150px;
         width: 150px;
         position: absolute;
@@ -2218,7 +2218,7 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-advocacy .image1{
+    .box_advocacy .image1{
         height: 150px;
         width: 150px;
         position: absolute;
@@ -2226,42 +2226,42 @@ a{
         margin-left: 1.5%;
         margin-top: -2%;
     }
-    .box-education{
+    .box_education{
         background-color: #ffffff;
         grid-row: 2;
         grid-column: 1;
         height: 80%;
         margin-top: 10%;
     }
-    .box-advocacy{
+    .box_advocacy{
         background-color: #ffffff;
         grid-row: 3;
         grid-column: 1;
         height: 80%;
         margin-top: 20%;
     }
-    .box-plant h1{
+    .box_plant h1{
         color: #354463;
         padding: 0;
         margin-top: 5%;
         margin-left: 45%;
         margin-right: 10%;
     }
-    .box-education h1{
+    .box_education h1{
         color: #354463;
         padding: 0;
         margin-top: 5%;
         margin-left: 45%;
         margin-right: 10%;
     }
-    .box-advocacy h1{
+    .box_advocacy h1{
         color: #354463;
         padding: 0;
         margin-top: 5%;
         margin-left: 45%;
         margin-right: 10%;
     }
-    .box-plant p{
+    .box_plant p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
@@ -2270,7 +2270,7 @@ a{
         margin-right: 2%;
         font-size: 70%;
     }
-    .read-more-button{
+    .read_more_button{
         position: relative;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -2280,7 +2280,7 @@ a{
         padding: 4%;
         margin-left: 5%;  
     }
-    .box-education p{
+    .box_education p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
@@ -2289,7 +2289,7 @@ a{
         margin-right: 2%;
         font-size: 70%;
     }
-    .box-advocacy p{
+    .box_advocacy p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: left;
@@ -2299,7 +2299,7 @@ a{
         font-size: 70%;
     }
 
-    .climate-issue-action-social{
+    .climate_issue_action_social{
         width: 100%;
         background-image: url(../home/climate_change.png);
         height: 650px;
@@ -2309,7 +2309,7 @@ a{
         display: grid;
         grid-template-columns: 0.75fr 1fr;
     }
-    .climate-issue-action-social .slogan{
+    .climate_issue_action_social .slogan{
         grid-column: 1;
         padding: 0;
         width: 100%;
@@ -2338,35 +2338,35 @@ a{
         margin-top: 10%;
         margin-left: 10%;
     }
-    .social-media{
+    .social_media{
         height: 25%;
         width: 90%;
         background-color: #ffffff;
         display: flex;
         margin: 5%
     }
-    .social-media-msg{
+    .social_media_msg{
         float: left;
         padding: 10%;
         width: 70%;
         color: #354463;
         margin: 0 5%;
     }
-    .social-media-msg h1{
+    .social_media_msg h1{
         font-size: 120%;
         padding: 0;
         margin: 0;
     }
-    .social-media-msg p{
+    .social_media_msg p{
         padding: 0;
         font-size: 60%;
     }
-    .social-media-icon{
+    .social_media_icon{
         float: right;
         width: 30%;
         margin: 5% 0;
     }
-    .social-media-icon div{
+    .social_media_icon div{
         margin:25% 5%;
         background-color: #C1F7D5;
         width: 20px;
@@ -2388,7 +2388,7 @@ a{
         font-size: 55%;
     }
 
-    .ladies-stories{
+    .ladies_stories{
         padding: 10%;
     }
 
@@ -2429,7 +2429,7 @@ a{
         margin-bottom: 20%;
         letter-spacing: 1px;
     }
-    .ladies-stories .read-more-button{
+    .ladies_stories .read_more_button{
         position: relative;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -2442,14 +2442,14 @@ a{
         font-size: 120%;
     }
 
-    .oath-event-news{
+    .oath_event_news{
         background-color: #354463;
         display: grid;
         grid-template-rows: 0.3fr 1fr 1fr;
         padding:10%;
         overflow: hidden;
     }
-    .oath-event-news div{
+    .oath_event_news div{
         margin: 10% 0;;
     }
     .meet_img{
@@ -2485,30 +2485,30 @@ a{
         grid-template: repeat(1, 1fr) / 1fr 1fr;
         margin: 0 0 4% 0;
     }
-    .news .news-events-button{
+    .news .news_events_button{
         margin-top: 70%;
     }
-    .event .tree-images{
+    .event .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 1;
     }
-    .event .news-events-msg{
+    .event .news_events_msg{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .tree-images{
+    .news .tree_images{
         width: 50%;
         grid-row: 1;
         grid-column: 2;
     }
-    .news .news-events-msg{
+    .news .news_events_msg{
         grid-row: 1;
         grid-column: 1;
         width: 50%;
     }
-    .news-events-msg .do_p{
+    .news_events_msg .do_p{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         width: 120%;
         height: 30px;
@@ -2530,7 +2530,7 @@ a{
     .event .trees{
         margin-left: 35%;
     }
-    .news-events-msg p{
+    .news_events_msg p{
         color: #ffffff;
         margin-left: 35%;
         margin-top: 12%;
@@ -2542,7 +2542,7 @@ a{
         width: 130%;
         font-weight:lighter;
     }
-    .news-events-button{
+    .news_events_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -2553,11 +2553,11 @@ a{
         margin-left: 35%;
     }
 
-    .news .news-events-button{
+    .news .news_events_button{
         margin-top: 10%;
     }
 
-    .news .news-events-msg div, .news p, .news button{
+    .news .news_events_msg div, .news p, .news button{
         margin-left: 0;
     }
 
@@ -2602,46 +2602,46 @@ a{
         color: #ffffff;
         height: 55%;
     }
-    .bottom-tag-line{
+    .bottom_tag_line{
         padding: 10%;
         overflow: hidden;
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     }
-    .bottom-tag-line h5{
+    .bottom_tag_line h5{
         margin:0;
         padding:0;
     }
-    .bottom-tag-msg_title{
+    .bottom_tag_msg_title{
         padding: 10%;
         grid-row: 1;
         grid-column: 1;
         color: #354463;
         text-align: left;
     }
-    .bottom-tag-msg_contact{
+    .bottom_tag_msg_contact{
         padding: 10%;
         grid-row: 1;
         grid-column: 2;
         font-size: 60%;
     }
-    .bottom-tag-msg_follow{
+    .bottom_tag_msg_follow{
         padding: 10%;
         grid-row: 1;
         grid-column: 3;
         font-size: 60%;
         margin-right: 30%;
     }
-    .bottom-tag-msg_learn{
+    .bottom_tag_msg_learn{
         padding: 10%;
         grid-row: 2;
         grid-column: 2;
         font-size: 60%;
     }
-    .bottom-tag-line h5{
+    .bottom_tag_line h5{
         color:#354463;
     }
-    .bottom-tag-msg_slogan{
+    .bottom_tag_msg_slogan{
         grid-row: 2;
         grid-column: 3;
         font-family: flood-std;
@@ -2661,7 +2661,7 @@ a{
     header {
         border-bottom: #000000 1px solid;
     }
-    .green-tree-header{
+    .green_tree_header{
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -2725,7 +2725,7 @@ a{
         margin: -20% 48%;
     }
 
-    .climate-change-issue-msg{
+    .climate_change_issue_msg{
         width: 100%;
         height: 500px;
         overflow: hidden;
@@ -2808,7 +2808,7 @@ a{
         padding: 1%;
         margin-top: -3.5%;
     }
-    .action-initiative{
+    .action_initiative{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -2840,10 +2840,10 @@ a{
         padding: 10%;
         margin: 0 10%;
     }
-    .action-initiative h1{
+    .action_initiative h1{
         font-size: 150%;
     }
-    .action-initiative p {
+    .action_initiative p {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
@@ -2851,7 +2851,7 @@ a{
         opacity: 1;
         font-size: 80%;
     }
-    .our-initiative {
+    .our_initiative {
         background: #354463 0% 0% no-repeat padding-box;
         opacity: 1;
         overflow: hidden;
@@ -2885,13 +2885,13 @@ a{
     .box h1{
         margin: 80% 0 0 0;
     }
-    .box-plant{
+    .box_plant{
         background-color: #ffffff;
         grid-row: 1;
         grid-column: 1;
         height: 100%;
     }
-    .box-plant .image1{
+    .box_plant .image1{
         height: 120px;
         width: 180px;
         position: absolute;
@@ -2899,7 +2899,7 @@ a{
         margin-left: 15%;
         margin-top: -3%;
     }
-    .box-education .image1{
+    .box_education .image1{
         height: 120px;
         width: 180px;
         position: absolute;
@@ -2907,7 +2907,7 @@ a{
         margin-left: 15%;
         margin-top: -3%;
     }
-    .box-advocacy .image1{
+    .box_advocacy .image1{
         height: 120px;
         width: 180px;
         position: absolute;
@@ -2915,21 +2915,21 @@ a{
         margin-left: 15%;
         margin-top: -3%;
     }
-    .box-education{
+    .box_education{
         background-color: #ffffff;
         grid-row: 2;
         grid-column: 1;
         height: 100%;
         margin-top: 10%;
     }
-    .box-advocacy{
+    .box_advocacy{
         background-color: #ffffff;
         grid-row: 3;
         grid-column: 1;
         height: 100%;
         margin-top: 20%;
     }
-    .box-plant h1{
+    .box_plant h1{
         color: #354463;
         padding: 0;
         margin-top: 45%;
@@ -2937,7 +2937,7 @@ a{
         margin-right: 10%;
         font-size: 100%;
     }
-    .box-education h1{
+    .box_education h1{
         color: #354463;
         padding: 0;
         margin-top: 45%;
@@ -2945,7 +2945,7 @@ a{
         margin-right: 10%;
         font-size: 100%;
     }
-    .box-advocacy h1{
+    .box_advocacy h1{
         color: #354463;
         padding: 0;
         margin-top: 45%;
@@ -2953,7 +2953,7 @@ a{
         margin-right: 10%;
         font-size: 100%;
     }
-    .box-plant p{
+    .box_plant p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: center;
@@ -2962,7 +2962,7 @@ a{
         margin-right: 20%;
         font-size: 70%;
     }
-    .read-more-button{
+    .read_more_button{
         position: relative;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -2972,7 +2972,7 @@ a{
         padding: 4%;
         margin: 4% 20%;  
     }
-    .box-education p{
+    .box_education p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: center;
@@ -2981,7 +2981,7 @@ a{
         margin-right: 20%;
         font-size: 70%;
     }
-    .box-advocacy p{
+    .box_advocacy p{
         color: #354463;
         font: normal normal 300 16px/24px Helvetica;
         text-align: center;
@@ -2991,7 +2991,7 @@ a{
         font-size: 70%;
     }
 
-    .climate-issue-action-social{
+    .climate_issue_action_social{
         width: 100%;
         background-image: url(../home/climate_change.png);
         height: 850px;
@@ -3001,7 +3001,7 @@ a{
         display: grid;
         grid-template-rows: 0.25fr 1fr;
     }
-    .climate-issue-action-social .slogan{
+    .climate_issue_action_social .slogan{
         grid-row: 1;
         padding: 0;
         width: 100%;
@@ -3030,35 +3030,35 @@ a{
         margin-top: 10%;
         margin-left: 10%;
     }
-    .social-media{
+    .social_media{
         height: 25%;
         width: 80%;
         background-color: #ffffff;
         display: flex;
         margin: 2% 5%;
     }
-    .social-media-msg{
+    .social_media_msg{
         float: left;
         padding: 10%;
         width: 70%;
         color: #354463;
         margin: 0 5%;
     }
-    .social-media-msg h1{
+    .social_media_msg h1{
         font-size: 120%;
         padding: 0;
         margin: 0;
     }
-    .social-media-msg p{
+    .social_media_msg p{
         padding: 0;
         font-size: 60%;
     }
-    .social-media-icon{
+    .social_media_icon{
         float: right;
         width: 30%;
         margin: 5% 0;
     }
-    .social-media-icon div{
+    .social_media_icon div{
         margin:25% 5%;
         background-color: #C1F7D5;
         width: 20px;
@@ -3080,7 +3080,7 @@ a{
         font-size: 60%;
     }
 
-    .ladies-stories{
+    .ladies_stories{
         padding: 10%;
     }
 
@@ -3121,7 +3121,7 @@ a{
         margin-bottom: 20%;
         letter-spacing: 1px;
     }
-    .ladies-stories .read-more-button{
+    .ladies_stories .read_more_button{
         position: relative;
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
@@ -3132,7 +3132,7 @@ a{
         font-size: 120%;
     }
 
-    .oath-event-news{
+    .oath_event_news{
         background-color: #354463;
         display: grid;
         grid-template-rows: 0.5fr 1.5fr 1.5fr;
@@ -3140,7 +3140,7 @@ a{
         overflow: hidden;
         margin: 10% 0 0 0;
     }
-    .oath-event-news div{
+    .oath_event_news div{
         margin:0;
     }
     .meet_img{
@@ -3174,22 +3174,22 @@ a{
     .news{
         margin: 0 0 4% 0;
     }
-    .news .news-events-button{
+    .news .news_events_button{
         margin-top: 70%;
     }
-    .event .tree-images{
+    .event .tree_images{
         width: 50%;
     }
-    .event .news-events-msg{
+    .event .news_events_msg{
         width: 50%;
     }
-    .news .tree-images{
+    .news .tree_images{
         width: 50%;
     }
-    .news .news-events-msg{
+    .news .news_events_msg{
         width: 50%;
     }
-    .news-events-msg .do_p{
+    .news_events_msg .do_p{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         width: 40%;
         height: 30px;
@@ -3214,7 +3214,7 @@ a{
     .event .trees{
         margin-left: 35%;
     }
-    .news-events-msg p{
+    .news_events_msg p{
         color: #ffffff;
         margin-left: 35%;
         margin-top: 12%;
@@ -3227,20 +3227,20 @@ a{
         font-weight:lighter;
         text-align: center;
     }
-    .news .news-events-msg .do_p{
+    .news .news_events_msg .do_p{
         margin-left: 20%;
     }
-    .news .news-events-msg .trees{
+    .news .news_events_msg .trees{
         text-align: center;
         margin-left: 35%;
     }
-    .news .news-events-msg p{
+    .news .news_events_msg p{
         margin-left: 35%;
     }
-    .news .news-events-msg button {
+    .news .news_events_msg button {
         margin-left: 55%;
     }
-    .news-events-button{
+    .news_events_button{
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -3252,7 +3252,7 @@ a{
         margin: 10% 50%;
     }
 
-    .news .news-events-button{
+    .news .news_events_button{
         width: 100%;
         height: 50%;
         font-size: 120%;
@@ -3260,7 +3260,7 @@ a{
         margin: 10%;
     }
 
-    .news .news-events-msg div, .news p, .news button{
+    .news .news_events_msg div, .news p, .news button{
         margin-left: 0;
     }
 
@@ -3302,13 +3302,13 @@ a{
         border: none;
         height: 100%;
     }
-    .bottom-tag-line{
+    .bottom_tag_line{
         padding: 5%;
         overflow: hidden;
         display: grid;
         grid-template: repeat(3, 1fr) / repeat(2, 1fr);
     }
-    .bottom-tag-msg_title{
+    .bottom_tag_msg_title{
         grid-row: 1;
         grid-column: 1;
         padding: 5%;
@@ -3317,28 +3317,28 @@ a{
         width: 60%;
         margin: 30% 25%;
     }
-    .bottom-tag-msg_contact{
+    .bottom_tag_msg_contact{
         grid-row: 1;
         grid-column: 2;
         margin:25%;
         font-size: 70%;
     }
-    .bottom-tag-msg_follow{
+    .bottom_tag_msg_follow{
         grid-row: 2;
         grid-column: 1;
         margin:30%;
         font-size: 70%;
     }
-    .bottom-tag-msg_learn{
+    .bottom_tag_msg_learn{
         grid-row: 2;
         grid-column: 2;
         margin:30%;
         font-size: 70%;
     }
-    .bottom-tag-line h5{
+    .bottom_tag_line h5{
         color:#354463;
     }
-    .bottom-tag-msg_slogan{
+    .bottom_tag_msg_slogan{
         grid-row: 3;
         grid-column: 2;
         padding: 5%;
