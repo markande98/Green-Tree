@@ -1271,6 +1271,7 @@ a{
         background-color: #354463;
         color: #ffffff;
         height: 15%;
+        border-radius: 100px;
     }
     .bottom_tag_line{
         padding: 5%;
@@ -1922,6 +1923,7 @@ a{
         background-color: #354463;
         color: #ffffff;
         height: 100%;
+        border-radius: 100px;
     }
     .bottom_tag_line{
         padding: 5%;
@@ -2601,6 +2603,7 @@ a{
         background-color: #354463;
         color: #ffffff;
         height: 55%;
+        border-radius: 100px;
     }
     .bottom_tag_line{
         padding: 10%;
